@@ -83,7 +83,8 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
+	font-size: 16px!important;
+	width: 60%!important;
 }
 #about-me p {
 	width: 80%;
