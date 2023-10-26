@@ -245,13 +245,11 @@
 
 
     filterByTag() {
-      // modification de là 
       if ($(this).hasClass("active-tag")) {
         $(this).removeClass("active-tag");
       }
       $(".active-tag").removeClass("active active-tag");
       $(this).addClass("active-tag");
-      // à de là
       var tag = $(this).data("images-toggle");
 
       $(".gallery-item").each(function() {
