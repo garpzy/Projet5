@@ -247,7 +247,10 @@ form textarea {
 }
 input[type="submit"] {
 	background-color: #5c5623;
-	padding: .5em 1em
+	padding: .5em 1em;
+	color: white;
+	border: solid 1px;
+	border-color: #5c5623;
 }
 
 @media all and (max-width: 1180px) {
