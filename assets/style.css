@@ -253,6 +253,14 @@ input[type="submit"] {
 	border-color: #5c5623;
 }
 
+/* à ajouter au min ?
+.modal-dialog{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;  
+} */
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
