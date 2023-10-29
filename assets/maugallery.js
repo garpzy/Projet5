@@ -174,9 +174,9 @@
           }
         });
       } else {
-        $(".item-column").each(function() {
+        document.querySelector(".item-column").each(function() {
           if (
-            $(this)
+            document.querySelector(this)
               .children("img")
               .data("gallery-tag") === activeTag
           ) {
